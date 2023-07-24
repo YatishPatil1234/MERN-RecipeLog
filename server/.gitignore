@@ -1,0 +1,8 @@
+# Ignore node_modules and build artifacts
+node_modules/
+build/
+
+# Ignore server-specific environment files
+.env
+
+# Add other server-specific files or directories to ignore if needed

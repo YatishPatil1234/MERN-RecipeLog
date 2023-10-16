@@ -20,41 +20,36 @@ Basic knowledge of MERN stack development.
 Installation
 Clone the repository:
 
-bash
-Copy code
+
 git clone https://github.com/yourusername/recipe-crud-app.git
 cd recipe-crud-app
 Install server dependencies:
-
-bash
-Copy code
 cd server
 npm install
-Install client dependencies:
 
-bash
-Copy code
+
+Install client dependencies:
 cd client
 npm install
+
+
 Configure your database:
 
 Create a MongoDB database.
 Update the database connection details in server/config/database.js.
-Start the server:
 
-bash
-Copy code
+
+Start the server:
 cd server
 npm start
-Start the client:
 
-bash
-Copy code
+
+Start the client:
 cd client
 npm start
 Access the application at http://localhost:3000 in your web browser.
 
-Usage
+Usage:
 Creating a Recipe:
 
 Click the "Create Recipe" button.
